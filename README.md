@@ -1,9 +1,10 @@
 # thi-gi-a-ki-
 C++
+
+
 #include <iostream>
 #include <math.h>
 using namespace std;
-
 int main()
 {
     double TBD;
@@ -11,7 +12,6 @@ int main()
 	double KV;
 	double nam;
 	double a,b;
-	
 	cout<<"nhap so tien ban  dau:";
 	cin>>TBD;
 	cout<<"nhap lai suat:";
@@ -20,15 +20,12 @@ int main()
 	cin>>KV;
 	if(TBD<=KV)
 	{
-    	
     	a = double (KV/TBD);
     	b = double (1+LS);
     	nam = double (log(a)/log(b));
     	cout<<"so nam ban can de dat so tien ky vong:"<<nam;
-    	
-    }  
+    	}  
    	else
 	   cout<<"ban da sai roi:";
-	
 	return 0;
 }
