@@ -21,6 +21,5 @@ int main()
    	else
 	   cout<<"ban da sai roi:";
 	return 0;
-
 }
 
